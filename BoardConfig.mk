@@ -14,6 +14,7 @@
 # limitations under the License.
 
 FORCE_32_BIT := true
+TW_INCLUDE_CRYPTO := true
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
