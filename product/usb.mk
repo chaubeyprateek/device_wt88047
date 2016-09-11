@@ -9,3 +9,11 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ptp_adb=ff18 \
     ro.usb.id.ums=ff20 \
     ro.usb.id.ums_adb=ff28
+
+# USB debugging at bootup
+ADDITIONAL_DEFAULT_PROPERTIES +=  persist.sys.usb.config=mtp,adb
+ADDITIONAL_DEFAULT_PROPERTIES += \
+	ro.adb.secure=0 \
+	ro.secure=0 \
+	ro.debuggable=1
+
