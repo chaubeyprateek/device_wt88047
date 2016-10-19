@@ -25,13 +25,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.hal.debug.mask=0
 
-# Enable low power video mode for 4K encode
-PRODUCT_PROPERTY_OVERRIDES += \
-    vidc.debug.perf.mode=2 \
-    vidc.enc.dcvs.extra-buff-count=2
-
-# Video Recording Blobs
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.cpp.duplication=false= \
-    camera.disable_zsl_mode=1= \
-    media.camera.ts.monotonic=0
