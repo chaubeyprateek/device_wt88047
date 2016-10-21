@@ -1,2 +1,0 @@
-# Perfd
-/data/misc/perfd(/.*)?                  u:object_r:mpctl_data_file:s0
