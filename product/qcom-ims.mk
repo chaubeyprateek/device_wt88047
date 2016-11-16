@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     ims \
     imscmlibrary \
+    init.qcom-ims.rc \
     init.qti.ims.sh
 
 PRODUCT_COPY_FILES += \
